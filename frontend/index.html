@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Practice Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#top">Practice Store</a>
+      <nav aria-label="Основная навигация">
+        <a href="#products">Товары</a>
+        <a href="#contact">Связаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div>
+        <p class="eyebrow">Учебный проект</p>
+        <h1>Простая страница каталога</h1>
+        <p class="lead">Небольшой пример семантической HTML-разметки и базовой стилизации CSS.</p>
+        <a class="button" href="#products">Посмотреть товары</a>
+      </div>
+      <img src="assets/product.svg" alt="Иллюстрация ноутбука и периферии">
+    </section>
+
+    <section id="products" class="products container">
+      <h2>Популярные товары</h2>
+      <div class="product-grid">
+        <article class="card">
+          <h3>Клавиатура</h3>
+          <p>Компактная механическая клавиатура для рабочего места.</p>
+          <ul>
+            <li>USB-C</li>
+            <li>Компактный корпус</li>
+            <li>Съёмный кабель</li>
+          </ul>
+          <strong>5 900 ₽</strong>
+        </article>
+
+        <article class="card">
+          <h3>USB-C хаб</h3>
+          <p>Один адаптер для подключения дисплея и периферии.</p>
+          <ul>
+            <li>HDMI</li>
+            <li>USB-A</li>
+            <li>USB-C Power Delivery</li>
+          </ul>
+          <strong>3 500 ₽</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-grid">
+        <div>
+          <h2>Задать вопрос</h2>
+          <p>Форма демонстрирует базовые элементы ввода. Она не отправляет данные на сервер.</p>
+        </div>
+        <form>
+          <label for="name">Имя</label>
+          <input id="name" name="name" type="text" placeholder="Ваше имя">
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="student@example.com">
+
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" rows="4" placeholder="Текст сообщения"></textarea>
+
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">Учебная практика по Web Development</div>
+  </footer>
+</body>
+</html>
