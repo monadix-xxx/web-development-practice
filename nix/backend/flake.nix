@@ -14,7 +14,7 @@
           python = pkgs.python3.withPackages (ps: with ps; [ fastapi uvicorn ]);
         in {
           default = pkgs.mkShell {
-            packages = [ python ];
+            packages = [ python pkgs.virtualenv ];
           };
         });
     };
