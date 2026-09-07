@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Ноутбук и периферия</title>
+  <desc id="desc">Упрощённая иллюстрация ноутбука, клавиатуры и мыши</desc>
+  <rect width="640" height="480" rx="40" fill="#e9eef5"/>
+  <rect x="125" y="80" width="390" height="235" rx="18" fill="#182230"/>
+  <rect x="145" y="100" width="350" height="195" rx="8" fill="#ffffff"/>
+  <path d="M80 330h480l-35 55H115z" fill="#98a2b3"/>
+  <rect x="205" y="345" width="230" height="18" rx="5" fill="#ffffff" opacity=".8"/>
+  <ellipse cx="525" cy="400" rx="38" ry="26" fill="#475467"/>
+  <path d="M525 377v46" stroke="#ffffff" stroke-width="4" opacity=".7"/>
+</svg>
